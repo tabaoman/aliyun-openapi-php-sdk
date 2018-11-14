@@ -1,0 +1,22 @@
+{
+    "name": "tabaoman/aliyun-openapi-php-sdk",
+    "description": "Alibaba Cloud SDK for PHP",
+    "license": "Apache-2.0",
+    "authors": [{
+        "name": "tabaoman",
+        "email": "wp0126@hotmail.com"
+    }],
+    "autoload": {
+        "classmap": ["aliyun-php-sdk-core/"],
+        "exclude-from-classmap":[
+            "aliyun-php-sdk-core/Config.php",
+            "aliyun-php-sdk-core/Autoloader/"
+        ],
+        "files":[
+            "aliyun-php-sdk-core/Regions/EndpointConfig.php"
+        ],
+        "psr-4": {
+            "AliyunSDK\\Vod\\":"aliyun-php-sdk-vod/vod"
+        }
+    }
+}
