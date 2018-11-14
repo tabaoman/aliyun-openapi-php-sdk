@@ -16,7 +16,7 @@
             "aliyun-php-sdk-core/Regions/EndpointConfig.php"
         ],
         "psr-4": {
-            "AliyunSDK\\Vod\\":"aliyun-php-sdk-vod/vod"
+            "vod":"aliyun-php-sdk-vod/vod"
         }
     }
 }
